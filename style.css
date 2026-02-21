@@ -1,79 +1,69 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: "Mitr", sans-serif;
-    margin: 0;
+    background: #eee;
     display: flex;
     justify-content: center;
 }
 
+/* กล่องหลัก */
 .background {
     background-color: #FFC0CB;
-    width: 90%;
-    max-width: 400px;
-    margin: auto;
-    height: 844px;
-    justify-items: center;
+    width: 95%;
+    max-width: 500px;
+    padding: 30px 20px;
 }
 
-.topbar {
-    background-color:#FFCAF7;
-    color: #f35eda;
-    text-align: center;
-    border-radius: 15px;
-    width: 250px;
-    align-content: center;
-    border: solid 2.5px #f35eda;
-    margin: 70px;
-}
-
+/* กล่องหัวบน */
+.topbar,
 .eattime {
-    background-color:#FFCAF7;
+    background-color: #FFCAF7;
     color: #f35eda;
     text-align: center;
     border-radius: 15px;
-    width: 250px;
-    align-content: center;
-    border: solid 2.5px #f35eda;
-    margin: 70px;
+    border: 2.5px solid #f35eda;
+    padding: 10px;
+    width: 80%;
+    margin: 30px auto;
 }
 
+/* กล่องข้อความ */
 .desiception {
-    color:#f35eda;
-    display: flex;
     background-color: #FFCAF7;
-    height: 200px;
-    width: 350px;
+    color: #f35eda;
     border-radius: 20px;
-    align-items: center;
-    border: solid 2.5px #f35eda;
-    margin: 100px;
-    transition :2s;
-}
-
-.photo {
-    width: 400px;
-    height: 270px;
-    background-color: #FFCAF7;
-    border: solid 2.5px #f35eda;
-    border-radius: 20px;
-    align-content: center;
+    border: 2.5px solid #f35eda;
+    padding: 20px;
+    margin: 40px auto;
+    width: 90%;
     text-align: center;
-    transition :2s;
-    margin: 70px;
 }
 
-
-.photo img {
-    margin: 15px;
-}
-img {
-    width: 120px;
-    height: 220px;
+/* กล่องรูป */
+.photo {
+    background-color: #FFCAF7;
+    border: 2.5px solid #f35eda;
     border-radius: 20px;
-    border: solid 2.5px #f35eda;
+    padding: 20px;
+    margin: 40px auto;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* รูป */
+.photo img {
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2.5px solid #f35eda;
 }
