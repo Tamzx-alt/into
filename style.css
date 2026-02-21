@@ -23,6 +23,7 @@ body {
     width: 250px;
     align-content: center;
     border: solid 2.5px #f35eda;
+    margin: 70px;
 }
 
 .eattime {
@@ -58,6 +59,7 @@ body {
     align-content: center;
     text-align: center;
     transition :2s;
+    margin: 70px;
 }
 
 
@@ -68,4 +70,5 @@ img {
     width: 120px;
     height: 220px;
     border-radius: 20px;
+    border: solid 2.5px #f35eda;
 }
